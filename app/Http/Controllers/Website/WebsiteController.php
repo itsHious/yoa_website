@@ -18,4 +18,8 @@ class WebsiteController extends Controller
     public function services(){
         return view('website.services');
     }
+
+    public function PolicyAdvisory($id){
+       return view('website.service_detail',compact('id'));
+    }
 }

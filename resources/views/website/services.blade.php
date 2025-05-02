@@ -3,8 +3,8 @@
 
 @section('content')
       
-        <div class="rts-breadcrumb-area bg_primary">
-            <div class="container">
+<div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/19c.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
+    <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="title-area-left center">
@@ -79,10 +79,10 @@
                                             
                                             <div class="single-pricing ">
                                                
-                                                <span class="price-details">Education policy forms the backbone of national development, shaping how learning systems function, how resources are distributed, and how equity is promoted. At YOA Global Education Partners, we support governments in designing and reforming education policies that are inclusive, responsive, and aligned with international best practices.</span>
+                                                <span class="price-details">Education policy forms the backbone of national development, shaping how learning systems function, how resources are distributed, and how equity is promoted. At YOA Global Education Partners, we support governments in designing and reforming education policies...</span>
                                             </div>
                                           
-                                            <a class="rts-btn btn-primary" href="#">Read More</a>
+                                            <a class="rts-btn btn-primary" href="{{ route('services.detail','Policy Advisory') }}">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -147,7 +147,7 @@
                                             
                                             <div class="single-pricing ">
                                                
-                                                <span class="price-details">Teachers are the heart of any education system, and their continuous development is key to educational success. At YOA Global Education Partners, we design and deliver high-impact professional development programs that empower teachers with modern pedagogical skills, subject mastery, and adaptive teaching strategies.</span>
+                                                <span class="price-details">Teachers are the heart of any education system, and their continuous development is key to educational success. At YOA Global Education Partners, we design and deliver high-impact professional development programs that empower teachers with modern pedagogical...</span>
                                             </div>
                                           
                                             <a class="rts-btn btn-primary" href="#">Read More</a>

@@ -112,6 +112,14 @@
   background: #b29170 !important;
 }
 
+.text-yoa{
+  color:#404856 !important;
+}
+
+.text-yoa-alt{
+  color:#b29170 !important;
+}
+
 .bg{
   background: #3E484E !important;
 }
@@ -7938,25 +7946,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 .banner-four-area-main-wrapper {
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 81.536% 93.689%, 50.99% 100%, 25.313% 93.689%, 0% 100%, 0% 0%);
 }
-.banner-four-area-main-wrapper .banner-four-bg {
-  background-image: url(../images/banner/03.webp);
-  height: 824px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-}
-.banner-four-area-main-wrapper .banner-four-bg.two {
-  background-image: url(../images/banner/25.webp);
-}
-.banner-four-area-main-wrapper .banner-four-bg.three {
-  background-image: url(../images/banner/26.webp);
-}
-@media only screen and (max-width: 767px) {
-  .banner-four-area-main-wrapper .banner-four-bg {
-    height: 600px;
-  }
-}
+
 .banner-four-area-main-wrapper .banner-four-bg .inner-content-wrapper-four-banner span {
   display: flex;
   justify-content: center;
@@ -9618,7 +9608,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 .left-thumbnail-about-area-two {
   display: flex;
   justify-content: center;
-  max-width: 490px;
+  /* max-width: 490px; */
   margin: auto;
   position: relative;
 }
@@ -10420,13 +10410,13 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 }
 .rts-breadcrumb-area.bg_primary .title-area-left .bg-title {
   z-index: 1;
-  -webkit-text-stroke-color: rgba(255, 255, 255, 0.42);
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.8);
   top: -81px;
 }
-.rts-breadcrumb-area.bg_primary .title-area-left .bg-title::after {
+/* .rts-breadcrumb-area.bg_primary .title-area-left .bg-title::after {
   height: 108%;
   background: linear-gradient(0deg, rgb(51, 62, 80) 0%, rgba(51, 62, 80, 0.8) 35%, rgba(51, 62, 80, 0.3) 100%);
-}
+} */
 .rts-breadcrumb-area.small-h {
   height: 326px;
 }
@@ -10468,7 +10458,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
   top: 0;
   width: 100%;
   height: 107%;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.8855917367) 0%, rgba(255, 255, 255, 0.6082808123) 35%, rgba(255, 255, 255, 0) 100%);
+  /* background: linear-gradient(0deg, rgba(255, 255, 255, 0.8855917367) 0%, rgba(255, 255, 255, 0.6082808123) 35%, rgba(255, 255, 255, 0) 100%); */
 }
 .rts-breadcrumb-area .title-area-left .title {
   font-size: 54px;
@@ -10550,7 +10540,7 @@ section.main-wrapper-sticky .sticky-statement {
   top: 150px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left center;
+  background-position:  center;
   transition: 0.3s;
   background-image: none;
 }
@@ -10571,8 +10561,9 @@ section.main-wrapper-sticky .sticky-statement * {
   transition: 0.3s;
 }
 section.main-wrapper-sticky .sticky-statement:hover {
-  background-image: url(../images/service/06.webp);
-  background-position: center center;
+  background-image: url(../images/header/18c.jpg);
+  /* background-size; */
+  background-position: center;
 }
 section.main-wrapper-sticky .sticky-statement:hover .left-side img {
   filter: brightness(0) saturate(100%) invert(97%) sepia(97%) saturate(0%) hue-rotate(325deg) brightness(102%) contrast(100%);
@@ -11039,8 +11030,7 @@ section.main-wrapper-sticky .sticky-statement.narrow .left-side img {
 }
 
 .single-service-nine {
-  background-image: url(../images/service/02.webp);
-  height: 196px;
+  height: 96px;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -11048,13 +11038,13 @@ section.main-wrapper-sticky .sticky-statement.narrow .left-side img {
   justify-content: space-between;
 }
 .single-service-nine.two {
-  background-image: url(../images/service/03.webp);
+  /* background-image: url(../images/service/03.webp); */
 }
 .single-service-nine.three {
-  background-image: url(../images/service/04.webp);
+  /* background-image: url(../images/service/04.webp); */
 }
 .single-service-nine.four {
-  background-image: url(../images/service/05.webp);
+  /* background-image: url(../images/service/05.webp); */
 }
 .single-service-nine .title {
   color: #fff;
@@ -19220,7 +19210,7 @@ section.main-wrapper-sticky .sticky-statement.narrow .left-side img {
     padding: 22px;
   }
 }
-.company-history-main-wrapper .single-company-history::after {
+/* .company-history-main-wrapper .single-company-history::after {
   position: absolute;
   right: 0;
   top: 0;
@@ -19234,7 +19224,7 @@ section.main-wrapper-sticky .sticky-statement.narrow .left-side img {
   background-size: cover;
   border-radius: 20px;
   transition: 0.3s;
-}
+} */
 .company-history-main-wrapper .single-company-history:hover::after {
   width: 100%;
   left: 0;

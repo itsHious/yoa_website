@@ -1,9 +1,129 @@
 @extends('website.layouts.index')
 
-@section('content')
-<div class="page-wrapper radious-none-button">
+@section('page-css')
+    <style>
+        .banner-four-area-main-wrapper .banner-four-bg {
+  background-image: url('{{ asset('website/assets/images/header/2.jpg') }}');
+  height: 824px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.banner-four-area-main-wrapper .banner-four-bg.two {
+  background-image: url('{{ asset('website/assets/images/header/3.jpg') }}');
+}
+.banner-four-area-main-wrapper .banner-four-bg.three {
+  background-image: url('{{ asset('website/assets/images/header/4.jpg') }}');
+}
+@media only screen and (max-width: 767px) {
+  .banner-four-area-main-wrapper .banner-four-bg {
+    height: 600px;
+  }
+}
+    </style>
+@endsection
 
-    <div class="banner-seven-swiper-wrapper" id="home">
+@section('content')
+    <div class="banner-four-area-main-wrapper">
+
+        <div class="swiper mySwiper-banner-four" dir="ltr">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-area-banner-four-wrapper">
+                        <div class="banner-four-bg bg_image" >
+                            <div class="dark-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); z-index: 1;"></div>
+                            <div class="container" style="position: relative; z-index: 2;">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="inner-content-wrapper-four-banner text-center">
+                                            {{-- <h3 class="text-center pre subtitle">YOA</h3> --}}
+                                            <h1 class="title">
+                                                YOA Global<br>
+                                                Education Partners
+                                            </h1>
+                                            <p class="disc">
+                                                Empowering Minds. Transforming Systems.
+                                            </p>
+                                            <div class="button-wrapper">
+                                                <a href="{{ route('about') }}" class="rts-btn btn-primary btn-white">Explore</a>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-area-banner-four-wrapper">
+                        <div class="banner-four-bg bg_image two">
+                            <div class="dark-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); z-index: 1;"></div>
+                            <div class="container" style="position: relative; z-index: 2;">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="inner-content-wrapper-four-banner text-center">
+                                            <h1 class="title">
+                                                YOA Global<br>
+                                                Education Partners
+                                            </h1>
+                                            <p class="disc">
+                                                Empowering Minds. Transforming Systems.
+                                            </p>
+                                            <div class="button-wrapper">
+                                                <a href="{{ route('about') }}" class="rts-btn btn-primary btn-white">Explore</a>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-area-banner-four-wrapper">
+                        <div class="banner-four-bg bg_image three">
+                            <div class="dark-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); z-index: 1;"></div>
+                            <div class="container" style="position: relative; z-index: 2;">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="inner-content-wrapper-four-banner text-center">
+                                            <h1 class="title">
+                                                YOA Global<br>
+                                                Education Partners
+                                            </h1>
+                                            <p class="disc">
+                                                Empowering Minds. Transforming Systems.
+                                            </p>
+                                            <div class="button-wrapper">
+                                                <a href="{{ route('about') }}" class="rts-btn btn-primary btn-white">Explore</a>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        {{-- <div class="banner-shape-left-right">
+            <div class="left">
+                <img src="website/assets/images/banner/shape/left.svg" alt="left">
+            </div>
+            <div class="right">
+                <img src="website/assets/images/banner/shape/right.svg" alt="left">
+            </div>
+        </div> --}}
+        
+    </div>
+    {{-- <div class="banner-seven-swiper-wrapper" id="home">
 
         <!-- index seven area start -->
         <div class="index-seven-area rts-section-gap with-video bg_banner-seven two bg_image">
@@ -40,7 +160,7 @@
             <i class="fa-light fa-arrow-up"></i>
             Scroll
         </a>
-    </div>
+    </div> --}}
 
 
 
@@ -48,15 +168,27 @@
     <div class="rts-about-area-two rts-section-gap" id="about">
         <div class="container pb--40">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-7">
+                <div class="col-lg-6">
+                    <div class="left-thumbnail-about-area-two">
+                        <img src="{{ asset('website/assets/images/header/4.jpg') }}" class="rounded shadow" alt="about">
+                       
+                        <div class="counter-about-area">
+                            {{-- <h2 class="counter title"><span class="odometer odometer-auto-theme odometer-triggered" data-count="25"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">2</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">5</span></span></span></span></span></div></span>+
+                            </h2> --}}
+                            <span>Empowering Minds.</span> <br>
+                            <span>Transforming Systems.</span>
+                        </div>
+                    </div>
+                </div>
+                {{-- <div class="col-lg-7">
                     <div class="about-6-thumbnail-left-wrapper">
                         <div class="single-thumbnail">
-                            <img src="{{ asset('website/assets/images/about/12.webp')}}" alt="about">
+                            <img src="{{ asset('website/assets/images/header/4c.jpg')}}" alt="about">
                         </div>
                         <div class="single-thumbnail mt--40">
-                            <img src="{{ asset('website/assets/images/about/13.webp')}}" alt="about">
+                            <img src="{{ asset('website/assets/images/header/8.jpg')}}" alt="about">
                         </div>
-                        <div class="progress-circle-main-wrapper">
+                        <div class="progress-circle-main-wrapper border shadow rounded">
                             <div class="progress-area-wrapper images-r">
                                 <div class="single-progress-circle">
                                     <svg class="radial-progress" data-countervalue="80" viewBox="0 0 80 80">
@@ -69,7 +201,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="col-lg-5 pl--30 mt_md--100 mt_sm--100">
                     <div class="about-6-inner-content-content">
                         <div class="title-style-one left mb--30">
@@ -79,12 +211,12 @@
 
                             </h2> --}}
                         </div>
-                        <p class="disc">
+                        <p class="disc text-justify">
                             YOA Global Education Partners is a leading education consultancy committed to driving transformative changes in both local and global education systems. With deep expertise in policy-making, curriculum development, and capacity building, we aim to revolutionize educational practices, policies, and outcomes through strategic advisory services.
 Whether you are a school leader, government official, development partner, or private institution we are your trusted ally in shaping effective, inclusive, and future-ready education systems.
                         </p>
                      
-                        <a href="about.html" class="rts-btn btn-primary">Read More</a>
+                        <a href="{{ route('about') }}" class="rts-btn btn-primary">Read More</a>
 
                     </div>
                 </div>
@@ -105,7 +237,7 @@ Whether you are a school leader, government official, development partner, or pr
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="business-marklting-area-thumb">
-                                    <img src="website/assets/images/business/01.webp" class="shadow" alt="business_area">
+                                    <img src="{{ asset('website/assets/images/header/10.jpg') }}" class="shadow" alt="business_area">
                                 </div>
                             </div>
                             <div class="col-lg offset-lg-1">
@@ -115,7 +247,7 @@ Whether you are a school leader, government official, development partner, or pr
                                             <div class="title-style-four center">
                                                 <span class="pre">We are not just consultants</span>
                                                 <h2 class="title rts-text-anime-style-1">
-                                                    Who <span>We</span> Are
+                                                    Who We Are
                                                 </h2>
                                             </div>
                                         </div>
@@ -312,7 +444,7 @@ Whether you are a school leader, government official, development partner, or pr
                         <div class="title-style-four left">
                             {{-- <span class="pre">faq</span> --}}
                             <h2 class="title rts-text-anime-style-1">What we 
-                                <span>Offer</span>
+                                Offer
                             </h2>
                         </div>
                         
@@ -372,11 +504,24 @@ Whether you are a school leader, government official, development partner, or pr
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 ">
                     <div class="faq-one-thumbnail-wrapper-right" data-animation="zoomOut" data-delay="0.2" data-duration="1.2">
-                        <div class="thumbnail">
-                            <img src="{{ asset('website/assets/images/faq/01.webp') }}" alt="faq">
+                       <div class="row g-3">
+                        <div class="col-lg-6 thumnail mb-2">
+                            <img src="{{ asset('website/assets/images/header/12.jpg') }}" alt="faq" class="img-fluid rounded">
                         </div>
+                        <div class="col-lg-6 mb-2">
+                            <img src="{{ asset('website/assets/images/header/11.jpg') }}" alt="faq" class="img-fluid rounded">
+                        </div>
+
+                        <div class="col-lg-6 mb-2">
+                            <img src="{{ asset('website/assets/images/header/13.jpg') }}" alt="faq" class="img-fluid rounded">
+                        </div>
+
+                        <div class="col-lg-6 mb-2">
+                            <img src="{{ asset('website/assets/images/header/14.jpg') }}" alt="faq" class="img-fluid rounded">
+                        </div>
+                       </div>
                     </div>
                 </div>
             </div>
@@ -384,75 +529,105 @@ Whether you are a school leader, government official, development partner, or pr
     </div>
 
 
-   
 
-    <div class="rts-why-choose-us-section-8" id="about">
-        <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="why-choose-us-thumbnail">
-                        <img src="{{ asset('website/assets/images/why-choose/10.webp') }}" alt="why">
+
+    <div class="our-experties-area rts-section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-style-one eight center mb--30">
+                        <span class="pre">What Makes Us the Right Choice</span>
+                        <h2 class="title rts-text-anime-style-1 uppercase">Why Choose Us
+                        </h2>
                     </div>
                 </div>
-                <div class="col-lg-6 pl--50 pl_sm--10 mt_md--50 mt_sm--50 pb_md--50 pb_sm--40">
-                    <div class="why-choose-8-wrapper-content">
-                        <div class="title-style-five mb--40">
-                            <span class="pre">Why Work with Us?
-                            </span>
-                            {{-- <h2 class="title rts-text-anime-style-1">Expert Solutions for Your <br> Global Business</h2> --}}
-                        </div>
-                        <div class="single-feature-service-wrapper-8">
-                            <div class="icon">
-                                <img src="{{ asset('website/assets/images/why-choose/icons/08.svg')}}" alt="service">
+            </div>
+            <div class="row mt--40 g-5 d-flex justify-content-center">
+                <div class="col-lg-4">
+                    <div class="progress-circle-main-wrapper border shadow rounded">
+                        <div class="progress-area-wrapper style-8">
+                            <div class="single-progress-circle">
+                                <svg class="radial-progress" data-countervalue="80" viewBox="0 0 80 80">
+                                    <circle class="bar-static" cx="40" cy="40" r="35"></circle>
+                                    <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
+                                    <text class="countervalue start" x="50%" y="55%" transform="matrix(0, 1, -1, 0, 80, 0)">80</text>
+                                </svg>
                             </div>
-                            <div class="inner-wrapper">
-                                <h4 class="title">Data-Driven & Impact-Focused
-                                </h4>
-                             
-                            </div>
-                        </div>
-                        <div class="single-feature-service-wrapper-8">
-                            <div class="icon">
-                                <img src="{{ asset('website/assets/images/why-choose/icons/08.svg')}}" alt="service">
-                            </div>
-                            <div class="inner-wrapper">
-                                <h4 class="title">Unmatched Policy Expertise
-</h4>
+                            <div class="inner-content">
+                                <h5 class="title">Data-Driven & Impact-Focused</h5>
                                
                             </div>
                         </div>
-                       
+                    </div>
+                </div>
 
-                      
-
-                        <div class="single-feature-service-wrapper-8">
-                            <div class="icon">
-                                <img src="{{ asset('website/assets/images/why-choose/icons/08.svg')}}" alt="service">
+                <div class="col-lg-4">
+                    <div class="progress-circle-main-wrapper border shadow rounded">
+                        <div class="progress-area-wrapper style-8">
+                            <div class="single-progress-circle">
+                                <svg class="radial-progress" data-countervalue="80" viewBox="0 0 80 80">
+                                    <circle class="bar-static" cx="40" cy="40" r="35"></circle>
+                                    <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
+                                    <text class="countervalue start" x="50%" y="55%" transform="matrix(0, 1, -1, 0, 80, 0)">80</text>
+                                </svg>
                             </div>
-                            <div class="inner-wrapper">
-                                <h4 class="title">Strategic and Collaborative Approach
-                                </h4>
-                             
+                            <div class="inner-content">
+                                <h5 class="title">Unmatched Policy Expertise</h5>
+                               
                             </div>
                         </div>
-                        <div class="single-feature-service-wrapper-8">
-                            <div class="icon">
-                                <img src="{{ asset('website/assets/images/why-choose/icons/08.svg')}}" alt="service">
+                    </div>
+                </div>
+              
+                <div class="col-lg-4">
+                    <div class="progress-circle-main-wrapper border shadow rounded">
+                        <div class="progress-area-wrapper style-8">
+                            <div class="single-progress-circle">
+                                <svg class="radial-progress" data-countervalue="80" viewBox="0 0 80 80">
+                                    <circle class="bar-static" cx="40" cy="40" r="35"></circle>
+                                    <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
+                                    <text class="countervalue start" x="50%" y="55%" transform="matrix(0, 1, -1, 0, 80, 0)">80</text>
+                                </svg>
                             </div>
-                            <div class="inner-wrapper">
-                                <h4 class="title">Global and Local Insight
-                                </h4>
-                             
+                            <div class="inner-content">
+                                <h5 class="title">Strategic and Collaborative Approach</h5>
+                               
                             </div>
                         </div>
-                        <div class="single-feature-service-wrapper-8">
-                            <div class="icon">
-                                <img src="{{ asset('website/assets/images/why-choose/icons/08.svg')}}" alt="service">
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="progress-circle-main-wrapper border shadow rounded">
+                        <div class="progress-area-wrapper style-8">
+                            <div class="single-progress-circle">
+                                <svg class="radial-progress" data-countervalue="80" viewBox="0 0 80 80">
+                                    <circle class="bar-static" cx="40" cy="40" r="35"></circle>
+                                    <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
+                                    <text class="countervalue start" x="50%" y="55%" transform="matrix(0, 1, -1, 0, 80, 0)">80</text>
+                                </svg>
                             </div>
-                            <div class="inner-wrapper">
-                                <h4 class="title">Trusted by Institutions Worldwide
-                                </h4>
-                             
+                            <div class="inner-content">
+                                <h5 class="title">Global and Local Insight</h5>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="progress-circle-main-wrapper border shadow rounded">
+                        <div class="progress-area-wrapper style-8">
+                            <div class="single-progress-circle">
+                                <svg class="radial-progress" data-countervalue="80" viewBox="0 0 80 80">
+                                    <circle class="bar-static" cx="40" cy="40" r="35"></circle>
+                                    <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
+                                    <text class="countervalue start" x="50%" y="55%" transform="matrix(0, 1, -1, 0, 80, 0)">80</text>
+                                </svg>
+                            </div>
+                            <div class="inner-content">
+                                <h5 class="title">Trusted by Institutions Worldwide</h5>
+                               
                             </div>
                         </div>
                     </div>
@@ -460,10 +635,6 @@ Whether you are a school leader, government official, development partner, or pr
             </div>
         </div>
     </div>
-
-
-
-
 
 
     <!-- start client review area start -->
@@ -696,7 +867,6 @@ Whether you are a school leader, government official, development partner, or pr
                 </div>
             </div>
         </div>
-    </div>
 
 
 

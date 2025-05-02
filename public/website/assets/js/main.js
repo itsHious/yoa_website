@@ -792,7 +792,7 @@
           spaceBetween: 0,
           slidesPerGroup: 1,
           loop: true,
-          // effect: "fade",
+          effect: "fade",
           loopFillGroupWithBlank: true,
           centeredSlides: false,
           speed: 1500,

@@ -14,6 +14,11 @@
     <link rel="stylesheet" href="{{ asset('website/assets/css/plugins/odometer.css')}}">
     <link rel="stylesheet" href="{{ asset('website/assets/css/vendor/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{ asset('website/assets/css/style.css')}}">
+    <style>
+        .text-justify{
+            text-align: justify !important;
+        }
+    </style>
     @yield('page-css')
 </head>
 
@@ -192,32 +197,27 @@
                         Work With Us?
                     </h3>
                     <p class="disc">
-                        Felis consequat magnis est fames sagittis ultrices placerat sodales porttitor quisque.
+                        Empowering Minds. <br> Transforming Systems.
                     </p>
-                    <a class="rts-btn btn-primary" href="#">Get a Quote</a>
+                    <a class="rts-btn btn-primary" href="#">Get In Touch</a>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mt_sm--50">
                 <div class="footer-two-single-wized two">
                     <div class="wized-title-area">
-                        <h5 class="wized-title">Our Services</h5>
+                        <h5 class="wized-title">Quick Links</h5>
                         <img src="{{ asset('website/assets/images/footer/01.png')}}" alt="Invena_Footer">
                     </div>
                     <div class="wized-2-body">
                         <ul>
+                            <li><a href="{{ route('about') }}"><i
+                                        class="fal fa-chevron-double-right"></i>About Us
+                                    </a></li>
+                            <li><a href="{{ route('services') }}"><i class="fal fa-chevron-double-right"></i>Services</a></li>
                             <li><a href="service-details.html"><i
-                                        class="fal fa-chevron-double-right"></i>Business
-                                    planning</a></li>
-                            <li><a href="service-details.html"><i class="fal fa-chevron-double-right"></i>Tax
-                                    strategy</a></li>
-                            <li><a href="service-details.html"><i
-                                        class="fal fa-chevron-double-right"></i>Financial
-                                    advices</a></li>
-                            <li><a href="service-details.html"><i
-                                        class="fal fa-chevron-double-right"></i>Insurance
-                                    strategy</a></li>
-                            <li><a href="service-details.html"><i class="fal fa-chevron-double-right"></i>Manage
-                                    investment</a></li>
+                                        class="fal fa-chevron-double-right"></i>Gallery
+                                    </a></li>
+                           
                         </ul>
                     </div>
                 </div>
@@ -227,7 +227,7 @@
                 <div class="footer-two-single-wized">
                     <div class="wized-title-area">
                         <h5 class="wized-title">Contact Us</h5>
-                        <img src="{{ asset('website/assets/images/footer/01.png')}}" alt="Invena_Footer">
+                        <img src="{{ asset('website/assets/images/footer/01.svg')}}" alt="Invena_Footer">
                     </div>
                     <div class="wized-2-body">
                         <div class="contact-info-1">
