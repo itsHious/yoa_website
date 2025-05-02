@@ -16,6 +16,14 @@
             @case('Digital Transformation in Education')
             <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/23.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
                 @break
+
+                @case('Teacher Training & Professional Development')
+                <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/24c.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
+                    @break
+
+                    @case('International Education & Exchange Programs')
+                    <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/25.jpg') }}');background-position:top;background-size:cover; background-repeat:no repeat;">
+                        @break
         @default
             
     @endswitch
@@ -175,6 +183,106 @@
                     </div>
                 </div>
                     @break
+
+
+
+                    @case('Teacher Training & Professional Development')
+                    <div class="rts-service-area-start rts-sectiong-gap">
+                        <div class="container padding-extend-100">
+                            <div class="row">
+                                <div class="col-lg-6 pr--30 pr_sm--10">
+                                    <section class="main-wrapper-sticky">
+                                        <p class="disc text-justify">
+                                            Teachers are the heart of any education system, and their continuous development is key to educational success. At YOA Global Education Partners, we design and deliver high-impact professional development programs that empower teachers with modern pedagogical skills, subject mastery, and adaptive teaching strategies. Our workshops, seminars, and coaching sessions are evidence-based and aligned with international teaching standards.
+
+    
+                                        </p>
+                                        <p class="disc">
+                                            Our training modules cover a wide range of critical areas, including inclusive education, student-centered learning, classroom management, assessment literacy, and digital teaching skills. We use interactive, practice-oriented methods that encourage reflective learning and peer collaboration. These programs are delivered in both face-to-face and virtual formats, making them accessible to educators regardless of location.
+
+    
+                        
+                                        </p>
+                                        <p class="disc">
+                                            We also support the development of national and institutional teacher training frameworks, helping governments and schools embed professional development into their education systems. Our goal is to build a community of confident, well-equipped educators who can adapt to the evolving needs of learners and contribute meaningfully to education reform. We take pride in transforming teaching into a lifelong learning journey.
+
+                        
+                                        </p>
+                                    </section>
+                                </div>
+                                <div class="col-lg-6">
+                                   <img src="{{ asset('website/assets/images/header/24.jpg') }}" class="img-fluid rounded" alt="">
+                                    <div class="service-arrow-bottom-main">
+                                        <img src="{{ asset('website/assets/images/banner/shape/08.png') }}" alt="service">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row rts-section-gap">
+                                <div class="col-lg-12">
+                                    <div class="service-bottom-cta">
+                                        <h5 class="title">Let's get a conversation Started</h5>
+                                        <div class="right">
+                                            <p>Call Us! <a href="#">+(125) 2153-2158</a></p>
+                                        </div>
+                                        <div class="mid-image">
+                                            <img src="{{ asset('website/assets/images/service/01.png') }}" alt="service_image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        @break
+
+
+                        @case('International Education & Exchange Programs')
+                        <div class="rts-service-area-start rts-sectiong-gap">
+                            <div class="container padding-extend-100">
+                                <div class="row">
+                                    <div class="col-lg-6 pr--30 pr_sm--10">
+                                        <section class="main-wrapper-sticky">
+                                            <p class="disc text-justify">
+                                                Cross-border collaboration enriches educational experience by promoting diversity, global awareness, and intercultural competencies. YOA Global Education Partners facilitates international education initiatives that connect learners, educators, and institutions around the world. Our exchange programs promote cultural understanding, professional networking, and shared learning opportunities.
+
+    
+        
+                                            </p>
+                                            <p class="disc">
+                                                We work with governments, schools, universities, and development agencies to design and manage exchange programs, scholarships, study tours, and institutional partnerships. These programs are tailored to achieve specific goals such as academic enrichment, language immersion, research collaboration, or policy benchmarking. Whether it's a student exchange, a teacher development tour, or a bilateral institutional partnership, we ensure meaningful and measurable outcomes.
+
+        
+                            
+                                            </p>
+                                            <p class="disc">
+                                                We support institutions aligning with international education frameworks and accreditation systems. We guide them through application processes, partnership agreements, and compliance with global standards. Our global network and expertise allow us to serve as a trusted bridge between local institutions and international opportunities.
+
+                            
+                                            </p>
+                                        </section>
+                                    </div>
+                                    <div class="col-lg-6">
+                                       <img src="{{ asset('website/assets/images/header/25c.jpg') }}" class="img-fluid rounded" alt="">
+                                        <div class="service-arrow-bottom-main">
+                                            <img src="{{ asset('website/assets/images/banner/shape/08.png') }}" alt="service">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row rts-section-gap">
+                                    <div class="col-lg-12">
+                                        <div class="service-bottom-cta">
+                                            <h5 class="title">Let's get a conversation Started</h5>
+                                            <div class="right">
+                                                <p>Call Us! <a href="#">+(125) 2153-2158</a></p>
+                                            </div>
+                                            <div class="mid-image">
+                                                <img src="{{ asset('website/assets/images/service/01.png') }}" alt="service_image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            @break
             @default
                 
         @endswitch
