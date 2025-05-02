@@ -24,6 +24,15 @@
                     @case('International Education & Exchange Programs')
                     <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/25.jpg') }}');background-position:top;background-size:cover; background-repeat:no repeat;">
                         @break
+
+
+                        @case('Impact Assessments & Data Analytics')
+                        <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/26.jpg') }}');background-position:top;background-size:cover; background-repeat:no repeat;">
+                            @break
+
+                            @case('Development of School Infrastructure')
+                            <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/27.jpg') }}');background-position:top;background-size:cover; background-repeat:no repeat;">
+                                @break
         @default
             
     @endswitch
@@ -82,7 +91,7 @@
                             <div class="service-bottom-cta">
                                 <h5 class="title">Let's get a conversation Started</h5>
                                 <div class="right">
-                                    <p>Call Us! <a href="#">+(125) 2153-2158</a></p>
+                                    <p>Call Us! <a href="tel:233 54 012 5870">+233 54 012 5870</a></p>
                                 </div>
                                 <div class="mid-image">
                                     <img src="{{ asset('website/assets/images/service/01.png') }}" alt="service_image">
@@ -125,7 +134,7 @@
                             <div class="service-bottom-cta">
                                 <h5 class="title">Let's get a conversation Started</h5>
                                 <div class="right">
-                                    <p>Call Us! <a href="#">+(125) 2153-2158</a></p>
+                                    <p>Call Us! <a href="tel:233 54 012 5870">+233 54 012 5870</a></p>
                                 </div>
                                 <div class="mid-image">
                                     <img src="{{ asset('website/assets/images/service/01.png') }}" alt="service_image">
@@ -172,7 +181,7 @@
                                 <div class="service-bottom-cta">
                                     <h5 class="title">Let's get a conversation Started</h5>
                                     <div class="right">
-                                        <p>Call Us! <a href="#">+(125) 2153-2158</a></p>
+                                        <p>Call Us! <a href="tel:233 54 012 5870">+233 54 012 5870</a></p>
                                     </div>
                                     <div class="mid-image">
                                         <img src="{{ asset('website/assets/images/service/01.png') }}" alt="service_image">
@@ -222,7 +231,7 @@
                                     <div class="service-bottom-cta">
                                         <h5 class="title">Let's get a conversation Started</h5>
                                         <div class="right">
-                                            <p>Call Us! <a href="#">+(125) 2153-2158</a></p>
+                                            <p>Call Us! <a href="tel:233 54 012 5870">+233 54 012 5870</a></p>
                                         </div>
                                         <div class="mid-image">
                                             <img src="{{ asset('website/assets/images/service/01.png') }}" alt="service_image">
@@ -272,7 +281,7 @@
                                         <div class="service-bottom-cta">
                                             <h5 class="title">Let's get a conversation Started</h5>
                                             <div class="right">
-                                                <p>Call Us! <a href="#">+(125) 2153-2158</a></p>
+                                                <p>Call Us! <a href="tel:233 54 012 5870">+233 54 012 5870</a></p>
                                             </div>
                                             <div class="mid-image">
                                                 <img src="{{ asset('website/assets/images/service/01.png') }}" alt="service_image">
@@ -283,6 +292,107 @@
                             </div>
                         </div>
                             @break
+
+                            @case('Impact Assessments & Data Analytics')
+                            <div class="rts-service-area-start rts-sectiong-gap">
+                                <div class="container padding-extend-100">
+                                    <div class="row">
+                                        <div class="col-lg-6 pr--30 pr_sm--10">
+                                            <section class="main-wrapper-sticky">
+                                                <p class="disc text-justify">
+                                                    To achieve meaningful reform, education systems must be able to track what works, what doesn’t, and why. YOA Global Education Partners specializes in designing and conducting comprehensive impact assessments to evaluate the performance of programs, institutions, and policies. We bring a strong focus on outcomes, equity, and improvement, providing decision-makers with clear, data-driven insights.
+
+                                                </p>
+                                                <p class="disc">
+                                                    Our approach combines qualitative and quantitative methods to capture a holistic picture of educational effectiveness. We develop customized tools for data collection, monitoring, and evaluation—ranging from classroom observations and surveys to digital dashboards and national learning assessments. These tools help clients understand performance trends, learner progress, institutional efficiency, and teacher effectiveness.
+
+            
+                                
+                                                </p>
+                                                <p class="disc">
+                                                    Beyond assessment, we assist clients in building their own data systems and analytical capacity. We train education stakeholders in using data for planning, budgeting, and continuous improvement. By embedding a culture of evidence-based decision-making, we empower institutions and governments to achieve better outcomes and scale successful innovations across their systems.
+
+    
+                                
+                                                </p>
+                                            </section>
+                                        </div>
+                                        <div class="col-lg-6">
+                                           <img src="{{ asset('website/assets/images/header/26c.jpg') }}" class="img-fluid rounded" alt="">
+                                            <div class="service-arrow-bottom-main">
+                                                <img src="{{ asset('website/assets/images/banner/shape/08.png') }}" alt="service">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row rts-section-gap">
+                                        <div class="col-lg-12">
+                                            <div class="service-bottom-cta">
+                                                <h5 class="title">Let's get a conversation Started</h5>
+                                                <div class="right">
+                                                    <p>Call Us! <a href="tel:233 54 012 5870">+233 54 012 5870</a></p>
+                                                </div>
+                                                <div class="mid-image">
+                                                    <img src="{{ asset('website/assets/images/service/01.png') }}" alt="service_image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                @break
+
+
+
+                                @case('Development of School Infrastructure')
+                                <div class="rts-service-area-start rts-sectiong-gap">
+                                    <div class="container padding-extend-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 pr--30 pr_sm--10">
+                                                <section class="main-wrapper-sticky">
+                                                    <p class="disc text-justify">
+                                                        A conducive learning environment is fundamental to effective education. At YOA Global Education Partners, we support the development and transformation of school infrastructure to ensure that educational facilities are safe, inclusive, and optimized for 21st-century learning. We work with governments, NGOs, donor agencies, and private partners to design and implement infrastructure projects that respond to both local needs and global standards.
+
+    
+                                                    </p>
+                                                    <p class="disc">
+                                                        Our services include planning and advisory support for the construction, renovation, and modernization of classrooms, laboratories, libraries, ICT centers, and sanitation facilities. We emphasize child-friendly and gender-sensitive designs that support learning for all students, including those with disabilities. Whether it’s building new schools in underserved communities or upgrading urban campuses to support digital learning, we approach every project with a focus on sustainability, accessibility, and impact.
+
+    
+                
+                                    
+                                                    </p>
+                                                    <p class="disc">
+                                                        In addition to physical construction, we provide strategic input on infrastructure policy, financing models, and maintenance planning to ensure long-term viability. We also help align school infrastructure projects with national education goals and climate-resilient building standards. Through our infrastructure development service, YOA Global Education Partners contributes to creating learning environments that inspire, protect, and empower students and teachers alike.
+
+    
+        
+                                    
+                                                    </p>
+                                                </section>
+                                            </div>
+                                            <div class="col-lg-6">
+                                               <img src="{{ asset('website/assets/images/header/27c.jpg') }}" class="img-fluid rounded" alt="">
+                                                <div class="service-arrow-bottom-main">
+                                                    <img src="{{ asset('website/assets/images/banner/shape/08.png') }}" alt="service">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row rts-section-gap">
+                                            <div class="col-lg-12">
+                                                <div class="service-bottom-cta">
+                                                    <h5 class="title">Let's get a conversation Started</h5>
+                                                    <div class="right">
+                                                        <p>Call Us! <a href="tel:233 54 012 5870">+233 54 012 5870</a></p>
+                                                    </div>
+                                                    <div class="mid-image">
+                                                        <img src="{{ asset('website/assets/images/service/01.png') }}" alt="service_image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                    @break
             @default
                 
         @endswitch
