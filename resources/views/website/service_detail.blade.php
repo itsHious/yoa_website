@@ -25,7 +25,7 @@
     
 
         <div class="rts-service-area-start rts-sectiong-gap">
-            <div class="container padding-extend-300">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-6 pr--30 pr_sm--10">
                         <section class="main-wrapper-sticky">
