@@ -51,10 +51,16 @@
                                     <a href="{{ route('services') }}">Service</a>
                                 </li>
                                 <li class="main-nav mega-menu">
-                                    <a href="#">Project</a>
+                                    <a href="#">Team</a>
                                 </li>
                                 <li class="main-nav project-a-after">
-                                    <a href="#">Blog</a>
+                                    <a href="#">News</a>
+                                </li>
+                                <li class="main-nav project-a-after">
+                                    <a href="#">Gallery</a>
+                                </li>
+                                <li class="main-nav project-a-after">
+                                    <a href="#">Publications</a>
                                 </li>
                                 <li class="main-nav"><a href="#">Contact</a></li>
                             </ul>
