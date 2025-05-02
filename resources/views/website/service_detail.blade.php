@@ -3,12 +3,30 @@
 
 @section('content')
       
-<div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/20c.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
+
+
+    @switch($id)
+        @case('Policy Advisory')
+        <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/20c.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
+            @break
+        @case('Institutional Strategy')
+        <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/22.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
+            @break
+
+            @case('Digital Transformation in Education')
+            <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/23.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
+                @break
+        @default
+            
+    @endswitch
+
+
+
     <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="title-area-left center">
-                            <span class="bg-title">{{ $id }}</span>
+                            {{-- <span class="bg-title">{{ $id }}</span> --}}
                             <h1 class="title rts-text-anime-style-1">
                                 {{ $id }}
                             </h1>
@@ -68,8 +86,95 @@
             </div>
                 @break
             @case('Institutional Strategy')
+            <div class="rts-service-area-start rts-sectiong-gap">
+                <div class="container padding-extend-100">
+                    <div class="row">
+                        <div class="col-lg-6 pr--30 pr_sm--10">
+                            <section class="main-wrapper-sticky">
+                                <p class="disc text-justify">
+                                    Effective institutions are the engine rooms of a strong education system. We work closely with schools, colleges, and education ministries to shape strategic plans that are forward-thinking, results-driven, and rooted in both global standards and local realities. Our strategic advisory support includes institutional reviews, vision development, and operational planning to enhance overall performance.
+                                </p>
+                                <p class="disc">
+                                    A key component of our service is curriculum development. We support institutions in reimagining their curricula to reflect 21st-century skills, technological trends, and emerging societal needs. Our approach is inclusive, involving educators, learners, and communities to ensure curricula are practical, culturally relevant, and future-ready. By aligning content with global educational benchmarks and local values, we promote better learning outcomes and lifelong learning pathways.
                 
+                                </p>
+                                <p class="disc">
+                                    We also invest in leadership development by equipping educational leaders with the tools and mindset needed to manage change and drive excellence. Through customized training programs, coaching, and peer learning initiatives, we help leaders at all levels school heads, administrators, and policymakers—enhance their strategic thinking, decision-making, and governance capabilities. This strengthens institutional resilience and cultivates a culture of innovation and accountability.
+
+                
+                                </p>
+                            </section>
+                        </div>
+                        <div class="col-lg-6">
+                           <img src="{{ asset('website/assets/images/header/22c.jpg') }}" class="img-fluid rounded" alt="">
+                            <div class="service-arrow-bottom-main">
+                                <img src="{{ asset('website/assets/images/banner/shape/08.png') }}" alt="service">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row rts-section-gap">
+                        <div class="col-lg-12">
+                            <div class="service-bottom-cta">
+                                <h5 class="title">Let's get a conversation Started</h5>
+                                <div class="right">
+                                    <p>Call Us! <a href="#">+(125) 2153-2158</a></p>
+                                </div>
+                                <div class="mid-image">
+                                    <img src="{{ asset('website/assets/images/service/01.png') }}" alt="service_image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
                 @break
+
+                @case('Digital Transformation in Education')
+                <div class="rts-service-area-start rts-sectiong-gap">
+                    <div class="container padding-extend-100">
+                        <div class="row">
+                            <div class="col-lg-6 pr--30 pr_sm--10">
+                                <section class="main-wrapper-sticky">
+                                    <p class="disc text-justify">
+                                        In a rapidly changing digital world, integrating technology into education is no longer optional it is essential. YOA Global Education Partners helps educational institutions harness the power of technology to improve teaching, learning, and administration. Our digital transformation services are designed to bridge the digital divide and enable inclusive, flexible, and engaging learning experiences.
+
+                                    </p>
+                                    <p class="disc">
+                                        We assess institutional readiness and help design robust digital strategies that support blended and online learning environments. Our team guides schools and universities in selecting appropriate learning management systems (LMS), digital content platforms, and data tools that align with their pedagogical goals. We also support infrastructure planning to ensure that digital solutions are scalable, secure, and sustainable over time.
+
+                    
+                                    </p>
+                                    <p class="disc">
+                                        Beyond technology deployment, we emphasize building the human and organizational capacity to use digital tools effectively. We work with teachers, administrators, and IT personnel to promote digital literacy, instructional design, and tech-enabled classroom management. Our approach ensures that digital transformation enhances not disrupts the quality of education delivery and administration.
+
+    
+                    
+                                    </p>
+                                </section>
+                            </div>
+                            <div class="col-lg-6">
+                               <img src="{{ asset('website/assets/images/header/23c.jpg') }}" class="img-fluid rounded" alt="">
+                                <div class="service-arrow-bottom-main">
+                                    <img src="{{ asset('website/assets/images/banner/shape/08.png') }}" alt="service">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row rts-section-gap">
+                            <div class="col-lg-12">
+                                <div class="service-bottom-cta">
+                                    <h5 class="title">Let's get a conversation Started</h5>
+                                    <div class="right">
+                                        <p>Call Us! <a href="#">+(125) 2153-2158</a></p>
+                                    </div>
+                                    <div class="mid-image">
+                                        <img src="{{ asset('website/assets/images/service/01.png') }}" alt="service_image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    @break
             @default
                 
         @endswitch

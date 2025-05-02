@@ -106,7 +106,7 @@
                                                 <span class="price-details">Effective institutions are the engine rooms of a strong education system. We work closely with schools, colleges, and education ministries to shape strategic plans that are forward-thinking, results-driven, and rooted in both global standards and local realities.</span>
                                             </div>
                                           
-                                            <a class="rts-btn btn-primary" href="#">Read More</a>
+                                            <a class="rts-btn btn-primary" href="{{ route('services.detail','Institutional Strategy') }}">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -128,7 +128,7 @@
                                                 <span class="price-details">In a rapidly changing digital world, integrating technology into education is no longer optional it is essential. YOA Global Education Partners helps educational institutions harness the power of technology to improve teaching, learning, and administration.</span>
                                             </div>
                                           
-                                            <a class="rts-btn btn-primary" href="#">Read More</a>
+                                            <a class="rts-btn btn-primary" href="{{ route('services.detail','Digital Transformation in Education') }}">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -150,7 +150,7 @@
                                                 <span class="price-details">Teachers are the heart of any education system, and their continuous development is key to educational success. At YOA Global Education Partners, we design and deliver high-impact professional development programs that empower teachers with modern pedagogical...</span>
                                             </div>
                                           
-                                            <a class="rts-btn btn-primary" href="#">Read More</a>
+                                            <a class="rts-btn btn-primary" href="{{ route('services.detail','Teacher Training & Professional Development') }}">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -172,7 +172,7 @@
                                                 <span class="price-details">Cross-border collaboration enriches educational experience by promoting diversity, global awareness, and intercultural competencies. YOA Global Education Partners facilitates international education initiatives that connect learners, educators, and institutions around the world.</span>
                                             </div>
                                           
-                                            <a class="rts-btn btn-primary" href="#">Read More</a>
+                                            <a class="rts-btn btn-primary" href="{{ route('services.detail','International Education & Exchange Programs') }}">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -194,7 +194,7 @@
                                                 <span class="price-details">To achieve meaningful reform, education systems must be able to track what works, what doesn’t, and why. YOA Global Education Partners specializes in designing and conducting comprehensive impact assessments to evaluate the performance of programs, institutions, and policies.</span>
                                             </div>
                                           
-                                            <a class="rts-btn btn-primary" href="#">Read More</a>
+                                            <a class="rts-btn btn-primary" href="{{ route('services.detail','Impact Assessments & Data Analytics') }}">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -216,7 +216,7 @@
                                                 <span class="price-details">A conducive learning environment is fundamental to effective education. At YOA Global Education Partners, we support the development and transformation of school infrastructure to ensure that educational facilities are safe, inclusive, and optimized for 21st-century learning. </span>
                                             </div>
                                           
-                                            <a class="rts-btn btn-primary" href="#">Read More</a>
+                                            <a class="rts-btn btn-primary" href="{{ route('services.detail','Development of School Infrastructure') }}">Read More</a>
                                         </div>
                                     </div>
                                 </div>
