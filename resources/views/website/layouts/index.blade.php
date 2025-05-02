@@ -23,6 +23,9 @@
 </head>
 
 <body class="onepage">
+    @include('sweetalert::alert', ['cdn' => "https://cdn.jsdelivr.net/npm/sweetalert2@9"])
+
+ 
     <div class="loader-wrapper">
         <div class="loader">
         </div>
@@ -62,7 +65,7 @@
                                 <li class="main-nav project-a-after">
                                     <a href="#">Publications</a>
                                 </li>
-                                <li class="main-nav"><a href="#">Contact</a></li>
+                                <li class="main-nav"><a href="{{ route('contact') }}">Contact</a></li>
                             </ul>
                         </div>
 
@@ -220,10 +223,13 @@
                                         class="fal fa-chevron-double-right"></i>About Us
                                     </a></li>
                             <li><a href="{{ route('services') }}"><i class="fal fa-chevron-double-right"></i>Services</a></li>
-                            <li><a href="service-details.html"><i
+                            <li><a href="#"><i
                                         class="fal fa-chevron-double-right"></i>Gallery
                                     </a></li>
-                           
+                                    <li><a href=" {{ route('contact') }}"><i
+                                        class="fal fa-chevron-double-right"></i>Contct Us
+                                    </a></li>
+                                   
                         </ul>
                     </div>
                 </div>
@@ -242,7 +248,9 @@
                             </div>
                             <div class="disc">
                                 <span>Call Us 24/7</span>
-                                <a href="#">(+256) 2145.2156</a>
+                                <a href="tel:+233 54 012 5870">+233 54 012 5870 </a>
+                                <a href="tel:+233 241305592">+233 241305592
+                                </a>
                             </div>
                         </div>
                         <div class="contact-info-1">
@@ -251,7 +259,7 @@
                             </div>
                             <div class="disc">
                                 <span>Work with us</span>
-                                <a href="#">info@Invena.com</a>
+                                <a href="#">info@yoa.com</a>
                             </div>
                         </div>
                     </div>
@@ -268,8 +276,9 @@
                             </div>
                             <div class="disc">
                                 <span>Our Location</span>
-                                <a href="#">XYZ Hilton Street, 125 Town <br>
-                                    United State</a>
+                                <a href="#">1 Anum Yemo Loop, East Legon, 
+                                    <br>
+                                    Accra, Ghana </a>
                             </div>
                         </div>
                     </div>
