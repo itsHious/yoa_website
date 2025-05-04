@@ -3,6 +3,9 @@
 namespace App\Http\Controllers\Website;
 
 use App\Http\Controllers\Controller;
+use App\Models\Gallery;
+use App\Models\GalleryCategory;
+use App\Models\Team;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
@@ -60,5 +63,25 @@ class WebsiteController extends Controller
             alert()->error('Action Aborted', 'Please check your input');
             return back();
         }
+    }
+
+    public function team(){
+        $team = Team::get();
+        return view('website.team',compact('team'));
+    }
+
+
+    public function gallery(){
+        $cat = GalleryCategory::withCount('gallery')->latest()->get();
+
+        return view('website.gallerycat',compact('cat'));
+    }
+
+    public function galleryview($id){
+        $img = Gallery::where('cat_id',$id)->latest()->get();
+        $cat = GalleryCategory::where('id',$id)->first();
+
+        return view('website.galleryview',compact('img','cat'));
+
     }
 }

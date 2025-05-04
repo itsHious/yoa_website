@@ -54,13 +54,13 @@
                                     <a href="{{ route('services') }}">Service</a>
                                 </li>
                                 <li class="main-nav mega-menu">
-                                    <a href="#">Team</a>
+                                    <a href="{{ route('team') }}">Team</a>
                                 </li>
                                 <li class="main-nav project-a-after">
                                     <a href="#">News</a>
                                 </li>
                                 <li class="main-nav project-a-after">
-                                    <a href="#">Gallery</a>
+                                    <a href="{{ route('gallery') }}">Gallery</a>
                                 </li>
                                 <li class="main-nav project-a-after">
                                     <a href="#">Publications</a>
