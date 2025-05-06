@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\GalleryCategoryController;
+use App\Http\Controllers\Admin\NewsController;
 use App\Http\Controllers\Admin\TeamController;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\ProfileController;
@@ -17,6 +18,10 @@ Route::post('send/contact',[WebsiteController::class,'sendcontact'])->name('cont
 Route::get('our-team',[WebsiteController::class,'team'])->name('team');
 Route::get('gallery',[WebsiteController::class,'gallery'])->name('gallery');
 Route::get('gallery/{id}/view',[WebsiteController::class,'galleryview'])->name('gallery.view');
+Route::get('our-news',[WebsiteController::class,'newslist'])->name('web.news');
+Route::get('news/{id}/read',[WebsiteController::class,'newsread'])->name('web.news.view');
+Route::get('publications',[WebsiteController::class,'publicationslist'])->name('web.publications');
+Route::get('publications/{id}/read',[WebsiteController::class,'pubsread'])->name('web.publications.view');
 
 
 Route::get('/dashboard', function () {
@@ -59,6 +64,18 @@ Route::middleware(['auth', 'verified'])->group(function () {
         Route::post('delete/{id}/category',[GalleryCategoryController::class,'deletecat'])->name('gallery.delete');
     });
 
+     // news
+     Route::prefix('news')->group(function () {
+        Route::get('/',[NewsController::class,'index'])->name('news.index');
+        Route::post('create',[NewsController::class,'create'])->name('news.create');
+        Route::get('{id}/view',[NewsController::class,'view'])->name('admin.news.view');
+        Route::get('{id}/edit',[NewsController::class,'edit'])->name('admin.news.edit');
+        Route::post('{id}/update',[NewsController::class,'update'])->name('news.update');
+        Route::post('{id}/delete',[NewsController::class,'delete'])->name('news.delete');
+    });
+
+
+    
 
     // profile Management
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

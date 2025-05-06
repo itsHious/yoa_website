@@ -9281,13 +9281,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
   z-index: -1;
 }
 
-.blog-details-banner-large-image {
-  height: 703px;
-  background-image: url(../images/blog/18.webp);
-  background-attachment: fixed;
-  background-position: center, center;
-  background-size: cover;
-}
+
 @media only screen and (max-width: 767px) {
   .blog-details-banner-large-image {
     height: 450px;
@@ -15174,8 +15168,8 @@ section.main-wrapper-sticky .sticky-statement.narrow .left-side img {
 }
 .single-blog-area-one.column-reverse .bottom-details {
   margin-bottom: 25px;
-  padding-bottom: 56px;
-  border-bottom: 1px solid #E9ECF1;
+  /* padding-bottom: 56px; */
+  /* border-bottom: 1px solid #E9ECF1; */
   border-top: none;
   margin-top: 0;
   padding-top: 0;

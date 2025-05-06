@@ -122,6 +122,10 @@
                 <li class="dropdown {{  request()->routeIs('gallery.category.index') ? 'active' : ''}}">
                     <a href="{!! route('gallery.category.index') !!}" class="nav-link  "><i data-feather="briefcase"></i><span>Gallery</span></a>
                 </li>
+
+                <li class="dropdown {{  request()->routeIs('news.index') ? 'active' : ''}}">
+                    <a href="{!! route('news.index') !!}" class="nav-link  "><i data-feather="file-text"></i><span>News</span></a>
+                </li>
               
                
 

@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Website;
 use App\Http\Controllers\Controller;
 use App\Models\Gallery;
 use App\Models\GalleryCategory;
+use App\Models\News;
 use App\Models\Team;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -83,5 +84,45 @@ class WebsiteController extends Controller
 
         return view('website.galleryview',compact('img','cat'));
 
+    }
+
+
+    public function newslist(){
+        $news = News::where('content_type','News')->latest()->paginate(9);
+        return view('website.newslist',compact('news'));
+    }
+
+    public function newsread($id){
+        $news = News::find($id);
+
+        $related = News::where('id','<>',$id)->where('content_type','News')->latest()->take(3)->get();
+
+        if($news !== null){
+            return view('website.newsview',compact('news','related'));
+        }else{
+            alert()->error('Action Aborted!','News Article not Found');
+            return back();
+        }
+    }
+
+
+
+
+    public function publicationslist(){
+        $news = News::where('content_type','Publications')->latest()->paginate(9);
+        return view('website.pubslist',compact('news'));
+    }
+
+    public function pubsread($id){
+        $news = News::find($id);
+
+        $related = News::where('id','<>',$id)->where('content_type','Publications')->latest()->take(3)->get();
+
+        if($news !== null){
+            return view('website.pubsview',compact('news','related'));
+        }else{
+            alert()->error('Action Aborted!','Publication Article not Found');
+            return back();
+        }
     }
 }

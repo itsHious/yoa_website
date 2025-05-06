@@ -212,7 +212,7 @@
                             </h2> --}}
                         </div>
                         <p class="disc text-justify">
-                            YOA Global Education Partners is a leading education consultancy committed to driving transformative changes in both local and global education systems. With deep expertise in policy-making, curriculum development, and capacity building, we aim to revolutionize educational practices, policies, and outcomes through strategic advisory services.
+                            YOA GEO led by Dr Yaw Osei Adutwum is a leading education consultancy committed to driving transformative changes in both local and global education systems. With deep expertise in policy-making, curriculum development, and capacity building, we aim to revolutionize educational practices, policies, and outcomes through strategic advisory services.
 Whether you are a school leader, government official, development partner, or private institution we are your trusted ally in shaping effective, inclusive, and future-ready education systems.
                         </p>
                      
@@ -234,13 +234,16 @@ Whether you are a school leader, government official, development partner, or pr
             <div class="col-lg-12">
                 <div class="business-boost-wrapper-main rts-section-gap">
                     <div class="container">
-                        <div class="row">
-                            <div class="col-lg-4">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-lg-5">
                                 <div class="business-marklting-area-thumb">
-                                    <img src="{{ asset('website/assets/images/header/10.jpg') }}" class="shadow" alt="business_area">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <video style="width: -webkit-fill-available;
+" class="embed-responsive-item" src="{{ asset('website/assets/images/header/file.mp4') }}" autoplay muted loop playsinline></video>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg offset-lg-1">
+                            <div class="col-lg p-5">
                                 <div class="boosting-business-right-area">
                                     <div class="row">
                                         <div class="col-lg-12">
@@ -643,8 +646,8 @@ Whether you are a school leader, government official, development partner, or pr
             <div class="row mt--30">
                 <div class="title-style-three-between">
                     <div class="title-style-three left">
-                        <span class="pre">Our Testimonial</span>
-                        <div class="bg-title">04</div>
+                        {{-- <span class="pre">Our Testimonial</span> --}}
+                        {{-- <div class="bg-title">04</div> --}}
                         <h2 class="title rts-text-anime-style-1">Our Client Reviews
                         </h2>
                     </div>
