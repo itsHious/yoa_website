@@ -7,6 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('website/assets/images/logo/logo.jpg')}}">
     <title>YOA Global Education Partners||Empowering Minds. Transforming Systems.</title>
+
+    <meta property="og:title" content="YOA Global Education Partners" />
+    <meta property="og:type" content="website" /> 
+    <meta property="og:url" content="{{ env('APP_URL') }}" />
+    <meta property="og:image" content="{{ asset('website/assets/images/logo/logo.jpg')}}" />
+    <meta property="og:description" content="YOA GEO led by Dr Yaw Osei Adutwum is a leading education consultancy committed to driving transformative changes in both local and global education systems. With deep expertise in policy-making, curriculum development, and capacity building, we aim to revolutionize educational practices, policies, and outcomes through strategic advisory services." />
+    <meta property="og:site_name" content="YOA Global Education Partners" />
+
+    <!-- Optional: Open Graph Locale and Other Tag -->
+    <meta property="og:locale" content="en_US" /> <!-- Specify the language/locale -->
+    <meta property="article:author" content="its_hious" />
+
+
+
     <link rel="stylesheet" href="{{ asset('website/assets/css/plugins/fontawesome.css')}}">
     <link rel="stylesheet" href="{{ asset('website/assets/css/plugins/swiper.css')}}">
     <link rel="stylesheet" href="{{ asset('website/assets/css/plugins/metismenu.css')}}">
