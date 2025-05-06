@@ -107,12 +107,12 @@
 
             </div>
             <ul class="sidebar-menu">
-                <li class="menu-header">Main</li>
+                {{-- <li class="menu-header">Main</li> --}}
                 {{-- WRCC routes --}}
                 @if (auth()->user()->role==1)
-                  <li class="dropdown {{  request()->routeIs('dashboard') ? 'active' : ''}}">
+                  {{-- <li class="dropdown {{  request()->routeIs('dashboard') ? 'active' : ''}}">
                       <a href="{!! route('dashboard') !!}" class="nav-link  "><i data-feather="monitor"></i><span>Dashboard</span></a>
-                  </li>             
+                  </li>              --}}
 
                   <li class="menu-header">Website Management</li>
                   <li class="dropdown {{  request()->routeIs('team.index') ? 'active' : ''}}">
@@ -134,8 +134,19 @@
                       <a href="{!! route('users.index') !!}" class="nav-link  "><i data-feather="users"></i><span>User Management</span></a>
                   </li>
               
+@elseif (auth()->user()->role==2)
+<li class="menu-header">Website Management</li>
+                  <li class="dropdown {{  request()->routeIs('team.index') ? 'active' : ''}}">
+                    <a href="{!! route('team.index') !!}" class="nav-link  "><i data-feather="users"></i><span>Team Management</span></a>
+                </li>
+              
+                <li class="dropdown {{  request()->routeIs('gallery.category.index') ? 'active' : ''}}">
+                    <a href="{!! route('gallery.category.index') !!}" class="nav-link  "><i data-feather="briefcase"></i><span>Gallery</span></a>
+                </li>
 
-
+                <li class="dropdown {{  request()->routeIs('news.index') ? 'active' : ''}}">
+                    <a href="{!! route('news.index') !!}" class="nav-link  "><i data-feather="file-text"></i><span>News</span></a>
+                </li>
                 @endif
 
 
