@@ -10342,7 +10342,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
   text-align: center;
   position: absolute;
   top: 30px;
-  left: -70px;
+  left: -90px;
 }
 @media only screen and (max-width: 575px) {
   .thumbnail-about-10-wrapper .top-counter-area {

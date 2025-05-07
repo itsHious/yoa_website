@@ -39,7 +39,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="thumbnail-about-10-wrapper">
-                                <img src="{{ asset('website/assets/images/banner/personal.jpg') }}" alt="abotu">
+                                <img src="{{ asset('website/assets/images/header/ic.jpg') }}" alt="abotu">
                                 <div class="top-counter-area">
                                     <div class="icon">
                                         <img src="website/assets/images/about/icons/08.svg" alt="about">

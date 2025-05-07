@@ -26,7 +26,7 @@
  
 
 
-     <div class="rts-breadcrumb-area" style="background-image:url('{{ asset('website/assets/images/header/10c.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
+     <div class="rts-breadcrumb-area" style="background-image:url('{{ asset('website/assets/images/header/20c.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

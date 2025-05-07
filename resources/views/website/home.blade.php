@@ -641,13 +641,13 @@ Whether you are a school leader, government official, development partner, or pr
 
 
     <!-- start client review area start -->
-    <div class="rts-client-review-two bg-black-content rts-section-gapTop bg-client-r-h2">
+    {{-- <div class="rts-client-review-two bg-black-content rts-section-gapTop bg-client-r-h2">
         <div class="container">
             <div class="row mt--30">
                 <div class="title-style-three-between">
                     <div class="title-style-three left">
-                        {{-- <span class="pre">Our Testimonial</span> --}}
-                        {{-- <div class="bg-title">04</div> --}}
+                        <span class="pre">Our Testimonial</span> 
+                        <div class="bg-title">04</div> 
                         <h2 class="title rts-text-anime-style-1">Our Client Reviews
                         </h2>
                     </div>
@@ -906,5 +906,5 @@ Whether you are a school leader, government official, development partner, or pr
 
 
 
-</div>
+</div> --}}
 @endsection
