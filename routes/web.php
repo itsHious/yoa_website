@@ -8,6 +8,8 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Website\WebsiteController;
 use Illuminate\Support\Facades\Route;
 
+Route::middleware(['web', 'throttle:60,1','CSP'])->group(function () {
+
 Route::get('/',[WebsiteController::class,'index'])->name('/');
 Route::get('/about',[WebsiteController::class,'about'])->name('about');
 Route::get('/services',[WebsiteController::class,'services'])->name('services');
@@ -22,7 +24,7 @@ Route::get('our-news',[WebsiteController::class,'newslist'])->name('web.news');
 Route::get('news/{id}/read',[WebsiteController::class,'newsread'])->name('web.news.view');
 Route::get('publications',[WebsiteController::class,'publicationslist'])->name('web.publications');
 Route::get('publications/{id}/read',[WebsiteController::class,'pubsread'])->name('web.publications.view');
-
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

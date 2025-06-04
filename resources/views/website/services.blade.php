@@ -3,7 +3,7 @@
 
 @section('content')
       
-<div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/19c.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
+<div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/services.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
     <div class="container">
                 <div class="row">
                     <div class="col-lg-12">

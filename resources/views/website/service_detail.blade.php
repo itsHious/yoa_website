@@ -10,11 +10,11 @@
         <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/20c.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
             @break
         @case('Institutional Strategy')
-        <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/22.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
+        <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/22_.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
             @break
 
             @case('Digital Transformation in Education')
-            <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/23.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
+            <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/23_.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
                 @break
 
                 @case('Teacher Training & Professional Development')
@@ -22,12 +22,12 @@
                     @break
 
                     @case('International Education & Exchange Programs')
-                    <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/25.jpg') }}');background-position:top;background-size:cover; background-repeat:no repeat;">
+                    <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/25_.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
                         @break
 
 
                         @case('Impact Assessments & Data Analytics')
-                        <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/26.jpg') }}');background-position:top;background-size:cover; background-repeat:no repeat;">
+                        <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/26_.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
                             @break
 
                             @case('Development of School Infrastructure')
@@ -80,13 +80,13 @@
                             </section>
                         </div>
                         <div class="col-lg-6">
-                           <img src="{{ asset('website/assets/images/header/21.jpg') }}" class="img-fluid rounded" alt="">
+                           <img src="{{ asset('website/assets/images/header/policy.jpg') }}" class="img-fluid rounded" alt="">
                             <div class="service-arrow-bottom-main">
                                 <img src="{{ asset('website/assets/images/banner/shape/08.png') }}" alt="service">
                             </div>
                         </div>
                     </div>
-                    <div class="row rts-section-gap">
+                    <div class="row rts-section-gap pt-0">
                         <div class="col-lg-12">
                             <div class="service-bottom-cta">
                                 <h5 class="title">Let's get a conversation Started</h5>
@@ -123,13 +123,13 @@
                             </section>
                         </div>
                         <div class="col-lg-6">
-                           <img src="{{ asset('website/assets/images/header/22c.jpg') }}" class="img-fluid rounded" alt="">
+                           <img src="{{ asset('website/assets/images/header/ism.jpg') }}" class="img-fluid rounded" alt="">
                             <div class="service-arrow-bottom-main">
                                 <img src="{{ asset('website/assets/images/banner/shape/08.png') }}" alt="service">
                             </div>
                         </div>
                     </div>
-                    <div class="row rts-section-gap">
+                    <div class="row rts-section-gap pt-0">
                         <div class="col-lg-12">
                             <div class="service-bottom-cta">
                                 <h5 class="title">Let's get a conversation Started</h5>
@@ -170,13 +170,13 @@
                                 </section>
                             </div>
                             <div class="col-lg-6">
-                               <img src="{{ asset('website/assets/images/header/23c.jpg') }}" class="img-fluid rounded" alt="">
+                               <img src="{{ asset('website/assets/images/header/dt.jpg') }}" class="img-fluid rounded" alt="">
                                 <div class="service-arrow-bottom-main">
                                     <img src="{{ asset('website/assets/images/banner/shape/08.png') }}" alt="service">
                                 </div>
                             </div>
                         </div>
-                        <div class="row rts-section-gap">
+                        <div class="row rts-section-gap pt-0">
                             <div class="col-lg-12">
                                 <div class="service-bottom-cta">
                                     <h5 class="title">Let's get a conversation Started</h5>
@@ -226,7 +226,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row rts-section-gap">
+                            <div class="row rts-section-gap pt-0">
                                 <div class="col-lg-12">
                                     <div class="service-bottom-cta">
                                         <h5 class="title">Let's get a conversation Started</h5>
@@ -270,13 +270,13 @@
                                         </section>
                                     </div>
                                     <div class="col-lg-6">
-                                       <img src="{{ asset('website/assets/images/header/25c.jpg') }}" class="img-fluid rounded" alt="">
+                                       <img src="{{ asset('website/assets/images/header/exc.jpg') }}" class="img-fluid rounded" alt="">
                                         <div class="service-arrow-bottom-main">
                                             <img src="{{ asset('website/assets/images/banner/shape/08.png') }}" alt="service">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row rts-section-gap">
+                                <div class="row rts-section-gap pt-0">
                                     <div class="col-lg-12">
                                         <div class="service-bottom-cta">
                                             <h5 class="title">Let's get a conversation Started</h5>
@@ -318,13 +318,13 @@
                                             </section>
                                         </div>
                                         <div class="col-lg-6">
-                                           <img src="{{ asset('website/assets/images/header/26c.jpg') }}" class="img-fluid rounded" alt="">
+                                           <img src="{{ asset('website/assets/images/header/iaa.jpg') }}" class="img-fluid rounded" alt="">
                                             <div class="service-arrow-bottom-main">
                                                 <img src="{{ asset('website/assets/images/banner/shape/08.png') }}" alt="service">
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row rts-section-gap">
+                                    <div class="row rts-section-gap pt-0">
                                         <div class="col-lg-12">
                                             <div class="service-bottom-cta">
                                                 <h5 class="title">Let's get a conversation Started</h5>
@@ -377,7 +377,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row rts-section-gap">
+                                        <div class="row rts-section-gap pt-0">
                                             <div class="col-lg-12">
                                                 <div class="service-bottom-cta">
                                                     <h5 class="title">Let's get a conversation Started</h5>

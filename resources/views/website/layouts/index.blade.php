@@ -174,7 +174,7 @@
                             </div>
                             <div class="disc">
                                 <span>Work with us</span>
-                                <a href="#">info@yoa.com</a>
+                                <a href="#">info@yoagep.org</a>
                             </div>
                         </div>
                     </div>

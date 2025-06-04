@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Website;
 
 use App\Http\Controllers\Controller;
+use App\Mail\SendContactMail;
 use App\Models\Gallery;
 use App\Models\GalleryCategory;
 use App\Models\News;
@@ -57,7 +58,7 @@ class WebsiteController extends Controller
             ];
 
 
-            // Mail::to('info@fosda.org')->send(new SendContactMail($data));
+            Mail::to('info@yoagep.org')->send(new SendContactMail($data));
             alert()->success('Eureka!', 'Your message has been sent successfully');
             return back();
         }else{
