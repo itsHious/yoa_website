@@ -91,7 +91,7 @@
                             <div class="service-bottom-cta">
                                 <h5 class="title">Let's get a conversation Started</h5>
                                 <div class="right">
-                                    <p>Call Us! <a href="tel:233 54 012 5870">+233 54 012 5870</a></p>
+                                    <p>Call Us! <a href="tel:233597508601">+233597508601</a></p>
                                 </div>
                                 <div class="mid-image">
                                     <img src="{{ asset('website/assets/images/service/01.png') }}" alt="service_image">
@@ -134,7 +134,7 @@
                             <div class="service-bottom-cta">
                                 <h5 class="title">Let's get a conversation Started</h5>
                                 <div class="right">
-                                    <p>Call Us! <a href="tel:233 54 012 5870">+233 54 012 5870</a></p>
+                                    <p>Call Us! <a href="tel:233597508601">+233597508601</a></p>
                                 </div>
                                 <div class="mid-image">
                                     <img src="{{ asset('website/assets/images/service/01.png') }}" alt="service_image">
@@ -181,7 +181,7 @@
                                 <div class="service-bottom-cta">
                                     <h5 class="title">Let's get a conversation Started</h5>
                                     <div class="right">
-                                        <p>Call Us! <a href="tel:233 54 012 5870">+233 54 012 5870</a></p>
+                                        <p>Call Us! <a href="tel:233597508601">+233597508601</a></p>
                                     </div>
                                     <div class="mid-image">
                                         <img src="{{ asset('website/assets/images/service/01.png') }}" alt="service_image">
@@ -231,7 +231,7 @@
                                     <div class="service-bottom-cta">
                                         <h5 class="title">Let's get a conversation Started</h5>
                                         <div class="right">
-                                            <p>Call Us! <a href="tel:233 54 012 5870">+233 54 012 5870</a></p>
+                                            <p>Call Us! <a href="tel:233597508601">+233597508601</a></p>
                                         </div>
                                         <div class="mid-image">
                                             <img src="{{ asset('website/assets/images/service/01.png') }}" alt="service_image">
@@ -281,7 +281,7 @@
                                         <div class="service-bottom-cta">
                                             <h5 class="title">Let's get a conversation Started</h5>
                                             <div class="right">
-                                                <p>Call Us! <a href="tel:233 54 012 5870">+233 54 012 5870</a></p>
+                                                <p>Call Us! <a href="tel:233597508601">+233597508601</a></p>
                                             </div>
                                             <div class="mid-image">
                                                 <img src="{{ asset('website/assets/images/service/01.png') }}" alt="service_image">
@@ -329,7 +329,7 @@
                                             <div class="service-bottom-cta">
                                                 <h5 class="title">Let's get a conversation Started</h5>
                                                 <div class="right">
-                                                    <p>Call Us! <a href="tel:233 54 012 5870">+233 54 012 5870</a></p>
+                                                    <p>Call Us! <a href="tel:233597508601">+233597508601</a></p>
                                                 </div>
                                                 <div class="mid-image">
                                                     <img src="{{ asset('website/assets/images/service/01.png') }}" alt="service_image">
@@ -382,7 +382,7 @@
                                                 <div class="service-bottom-cta">
                                                     <h5 class="title">Let's get a conversation Started</h5>
                                                     <div class="right">
-                                                        <p>Call Us! <a href="tel:233 54 012 5870">+233 54 012 5870</a></p>
+                                                        <p>Call Us! <a href="tel:233597508601">+233597508601</a></p>
                                                     </div>
                                                     <div class="mid-image">
                                                         <img src="{{ asset('website/assets/images/service/01.png') }}" alt="service_image">

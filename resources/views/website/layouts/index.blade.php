@@ -12,7 +12,7 @@
     <meta property="og:type" content="website" /> 
     <meta property="og:url" content="{{ env('APP_URL') }}" />
     <meta property="og:image" content="{{ asset('website/assets/images/logo/logo.jpg')}}" />
-    <meta property="og:description" content="YOA GEO led by Dr Yaw Osei Adutwum is a leading education consultancy committed to driving transformative changes in both local and global education systems. With deep expertise in policy-making, curriculum development, and capacity building, we aim to revolutionize educational practices, policies, and outcomes through strategic advisory services." />
+    <meta property="og:description" content="YOA CEO led by Dr Yaw Osei Adutwum is a leading education consultancy committed to driving transformative changes in both local and global education systems. With deep expertise in policy-making, curriculum development, and capacity building, we aim to revolutionize educational practices, policies, and outcomes through strategic advisory services." />
     <meta property="og:site_name" content="YOA Global Education Partners" />
 
     <!-- Optional: Open Graph Locale and Other Tag -->
@@ -163,7 +163,7 @@
                             </div>
                             <div class="disc">
                                 <span>Call Us 24/7</span>
-                                <a href="tel:+233 54 012 5870">+233 54 012 5870 </a>
+                                <a href="tel:+233597508601">+233597508601 </a>
                                 <a href="tel:+233 241305592">+233 241305592
                                 </a>
                             </div>

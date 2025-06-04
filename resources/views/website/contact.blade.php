@@ -38,7 +38,7 @@
                                 <div class="info-wrapper">
                                     <span>Call Us 24/7</span>
                                     <a href="tel:+233 241305592">+233 241305592</a> <br>
-                                    <a href="tel:+233 54 012 5870">+233 54 012 5870</a>
+                                    <a href="tel:+233597508601">+233597508601</a>
                                 </div>
                             </div>
                             <div class="single-contact-info">

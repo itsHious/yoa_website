@@ -727,7 +727,7 @@
       });
       $(document).ready(function () {
         var swiper = new Swiper(".mySwiper-brand-2", {
-          slidesPerView: 5,
+          slidesPerView: 3,
           spaceBetween: 54,
           slidesPerGroup: 1,
           loop: true,

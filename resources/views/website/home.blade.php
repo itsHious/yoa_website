@@ -205,14 +205,14 @@
                 <div class="col-lg-5 pl--30 mt_md--100 mt_sm--100">
                     <div class="about-6-inner-content-content">
                         <div class="title-style-one left mb--30">
-                            <span class="pre">Our Unique Identity</span>
+                            <span class="pre text-yoa">Our Unique Identity</span>
                             {{-- <h2 class="title rts-text-anime-style-1">Smart and effective <br>
                                 business agency.
 
                             </h2> --}}
                         </div>
                         <p class="disc text-justify">
-                            YOA GEO led by Dr Yaw Osei Adutwum is a leading education consultancy committed to driving transformative changes in both local and global education systems. With deep expertise in policy-making, curriculum development, and capacity building, we aim to revolutionize educational practices, policies, and outcomes through strategic advisory services.
+                            YOA CEO led by Dr Yaw Osei Adutwum is a leading education consultancy committed to driving transformative changes in both local and global education systems. With deep expertise in policy-making, curriculum development, and capacity building, we aim to revolutionize educational practices, policies, and outcomes through strategic advisory services.
 Whether you are a school leader, government official, development partner, or private institution we are your trusted ally in shaping effective, inclusive, and future-ready education systems.
                         </p>
                      
@@ -263,32 +263,32 @@ Whether you are a school leader, government official, development partner, or pr
                                     <div class="feature-one-wrapper mt--40 pl_sm--0 row">
                                         <div class="col-lg-6 p-2">
                                             <div class="single-feature-one active ">
-                                                <i class="fal fa-check"></i>
+                                                <i class="fal fa-check bg-yoa-alt"></i>
                                                 <p>Government agencies & ministries of education</p>
                                             </div>
                                         </div>
                                         <div class="col-lg-6 p-2">
                                             <div class="single-feature-one ">
-                                                <i class="fal fa-check"></i>
+                                                <i class="fal fa-check bg-yoa-alt"></i>
                                                 <p>Non-governmental organizations (NGOs)
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="col-lg-6 p-2">
                                             <div class="single-feature-one ">
-                                                <i class="fal fa-check"></i>
+                                                <i class="fal fa-check bg-yoa-alt"></i>
                                                 <p>Public and private schools</p>
                                             </div>
                                         </div>
                                         <div class="col-lg-6 p-2">
                                             <div class="single-feature-one ">
-                                                <i class="fal fa-check"></i>
+                                                <i class="fal fa-check bg-yoa-alt"></i>
                                                 <p>Higher education institutions</p>
                                             </div>
                                         </div>
                                         <div class="col-lg-6 p-2">
                                             <div class="single-feature-one ">
-                                                <i class="fal fa-check"></i>
+                                                <i class="fal fa-check bg-yoa-alt"></i>
                                                 <p>International development partners</p>
                                             </div>
                                         </div>
