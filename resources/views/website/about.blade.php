@@ -226,12 +226,12 @@
                                 <div class="service-style-swiper-wrapper-two">
                                     <div class="swiper mySwiper-service-1">
                                         <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
+                                            <div class="swiper-slide p-1">
                                                 <div class="single-service-signle-wrapper">
                                                   
                                                     <div class="information">
                                                         <h5 class="title text-center">Integrity</h5>
-                                                        <p class="disc text-center">
+                                                        <p class="disc ">
                                                             We uphold the highest ethical standards in all our engagements. Transparency, honesty, and accountability are central to the way we work with clients, partners, and communities.
 
                                                         </p>
@@ -243,7 +243,7 @@
                                                 <div class="single-service-signle-wrapper">
                                                   
                                                     <div class="information">
-                                                        <h5 class="title text-center">Excellence</h5>
+                                                        <h5 class="title ">Excellence</h5>
                                                         <p class="disc text-center">
                                                             We are committed to delivering high-quality, evidence-based solutions that lead to measurable and lasting impact. We strive for innovation and continuous improvement in everything we do.
                                                         </p>
@@ -255,7 +255,7 @@
                                                 <div class="single-service-signle-wrapper">
                                                   
                                                     <div class="information">
-                                                        <h5 class="title text-center">Collaboration</h5>
+                                                        <h5 class="title ">Collaboration</h5>
                                                         <p class="disc text-center">
                                                             We believe in the power of partnerships. By working closely with stakeholders at all levels, we co-create effective and sustainable education solutions tailored to unique contexts.
 
@@ -269,7 +269,7 @@
                                                  
                                                     <div class="information">
                                                         <h5 class="title text-center">Equity & Inclusion</h5>
-                                                        <p class="disc text-center">
+                                                        <p class="disc ">
                                                             We champion access to quality education for all—regardless of background, gender, ability, or location. Our work is guided by a commitment to fairness, inclusivity, and social justice.
 
                                                         </p>

@@ -211,7 +211,7 @@
 
                             </h2> --}}
                         </div>
-                        <p class="disc text-justify">
+                        <p class="disc">
                             YOA CEO led by Dr Yaw Osei Adutwum is a leading education consultancy committed to driving transformative changes in both local and global education systems. With deep expertise in policy-making, curriculum development, and capacity building, we aim to revolutionize educational practices, policies, and outcomes through strategic advisory services.
 Whether you are a school leader, government official, development partner, or private institution we are your trusted ally in shaping effective, inclusive, and future-ready education systems.
                         </p>
