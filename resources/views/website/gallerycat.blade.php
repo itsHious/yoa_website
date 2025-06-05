@@ -84,7 +84,18 @@
                 </div>
             </div>
                @empty
-                   <h4 class="text-center">No Data Available</h4>
+                    <div class="mx-auto col-lg-4 col-md-6 col-sm-12 col-12" data-animation="fadeInUp" data-delay="0.2" data-duration="1.2">
+                <div class="single-team-area-one-start">
+                   
+                    <div class="inner-content shadow border">
+                        <div class="text-top">
+                           
+                            <h4 class="text-center mt-">No Data Available</h4>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
                @endforelse
               
               

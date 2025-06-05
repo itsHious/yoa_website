@@ -90,7 +90,7 @@
                 </div>
             </div>
                @empty
-               <div class="col-lg-4 col-md-6 col-sm-12 col-12" data-animation="fadeInUp" data-delay="0.2" data-duration="1.2">
+               <div class="mx-auto col-lg-4 col-md-6 col-sm-12 col-12" data-animation="fadeInUp" data-delay="0.2" data-duration="1.2">
                 <div class="single-team-area-one-start">
                    
                     <div class="inner-content shadow border">
