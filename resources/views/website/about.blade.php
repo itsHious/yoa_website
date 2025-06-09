@@ -322,50 +322,5 @@
         </div>
     </div>
 
-    <div class="rts-brand-area rts-section-gap pt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-area-client-client text-center mb-5">
-                        <p class="client-title">Our Trusted Partners</p>
-                    </div>
-                    <div class="brand-style-two-wrapper">
-                        <div class="swiper mySwiper-brand-2">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="single-brand">
-                                        <img src="{{ asset('website/assets/images/partners/aves.jpg') }}" alt="brand">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="single-brand">
-                                        <img src="{{ asset('website/assets/images/partners/wb.png') }}" alt="brand">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="single-brand">
-                                        <img src="{{ asset('website/assets/images/partners/aves_2.png') }}" alt="brand">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="single-brand">
-                                        <img src="{{ asset('website/assets/images/partners/big_win.png') }}" alt="brand">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="single-brand">
-                                        <img src="{{ asset('website/assets/images/partners/moe.png') }}" alt="brand">
-                                    </div>
-                                </div>
 
-                                 
-                               
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 @endsection
