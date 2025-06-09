@@ -83,12 +83,12 @@
                             </ul>
                         </div>
 
-                        {{-- <div class="action-area">
-                            <a href="#" class="rts-btn btn-primary btn-white">Book a Meeting</a>
+                        <div class="action-area">
+                            {{-- <a href="#" class="rts-btn btn-primary btn-white">Book a Meeting</a> --}}
                             <button id="menu-btn" class="menu menu-btn ml--20 ml_sm--5">
                                 <img class="menu-light" src="{{ asset('website/assets/images/icons/01.svg')}}" alt="Menu-icon">
                             </button>
-                        </div> --}}
+                        </div>
                     </div>
                 </div>
             </div>
