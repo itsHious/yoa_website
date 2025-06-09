@@ -8,7 +8,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="title-area-left center">
-                            <span class="bg-title">Services</span>
+                            {{-- <span class="bg-title">Services</span> --}}
                             <h1 class="title rts-text-anime-style-1">
                                 Our Services
                             </h1>

@@ -8,8 +8,10 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="title-area-left center">
-                            <span class="bg-title">About Us</span>
-                           
+                            {{-- <span class="bg-title">About Us</span> --}}
+                             <h1 class="title rts-text-anime-style-1">
+                                About Us
+                            </h1>
                         </div>
                     </div>
                 </div>
