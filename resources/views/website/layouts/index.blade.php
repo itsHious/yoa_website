@@ -47,7 +47,7 @@
         <div class="loader-section section-right"></div>
     </div>
 
-    <header class="header-transparent header-seven header--sticky {{  request()->routeIs('web.news.view') ? 'sticky' : ''}}">
+    {{-- <header class="header-transparent header-seven header--sticky {{  request()->routeIs('web.news.view') ? 'sticky' : ''}}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -84,7 +84,6 @@
                         </div>
 
                         <div class="action-area">
-                            {{-- <a href="#" class="rts-btn btn-primary btn-white">Book a Meeting</a> --}}
                             <button id="menu-btn" class="menu menu-btn ml--20 ml_sm--5">
                                 <img class="menu-light" src="{{ asset('website/assets/images/icons/01.svg')}}" alt="Menu-icon">
                             </button>
@@ -93,8 +92,137 @@
                 </div>
             </div>
         </div>
+    </header> --}}
+    <header class="header-transparent header-seven header--sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header-transparent-main-wrapper">
+                        <a href="{{ route('/') }}" class="logo">
+                            <img src="{{ asset('website/assets/images/logo/logo_e.png')}}" width="200" alt="">
+                        </a>
+                        <div class="nav-area">
+                            <ul>
+                                <li class="main-nav mega-menu project-a-after">
+                                    <a href="{{ route('/') }}">Home</a>
+                                </li>
+
+                                <li class="main-nav mega-menu">
+                                    <a href="{{ route('about') }}">About</a>
+                                </li>
+                                <li class="main-nav mega-menu">
+                                    <a href="{{ route('services') }}">Services</a>
+                                </li>
+                                <li class="main-nav mega-menu">
+                                    <a href="{{ route('team') }}">Our Team</a>
+                                </li>
+                                <li class="main-nav project-a-after">
+                                    <a href="{{ route('web.news') }}">News</a>
+                                </li>
+                                <li class="main-nav project-a-after">
+                                    <a href="{{ route('gallery') }}">Gallery</a>
+                                </li>
+                                <li class="main-nav project-a-after">
+                                    <a href="{{ route('web.publications') }}">Publications</a>
+                                </li>
+                                <li class="main-nav"><a href="{{ route('contact') }}">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="action-area">
+                            <button id="menu-btn" class="menu menu-btn ml--20 ml_sm--5">
+                                 <img class="menu-light" src="{{ asset('website/assets/images/icons/01.svg')}}" alt="Menu-icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
+
+       <div id="side-bar" class="side-bar header-two">
+        <button class="close-icon-menu"><i class="far fa-times"></i></button>
+        <!-- inner menu area desktop start -->
+      <div class="rts-sidebar-menu-desktop">
+            <a class="logo-1" href="{{ route('/') }}"><img class="logo" src="{{ asset('website/assets/images/logo/logo_e.png')}}" alt="yoa_logo"></a>
+        
+        </div>
+        <!-- mobile menu area start -->
+        <div class="mobile-menu d-block d-xl-none">
+            <nav class="nav-main mainmenu-nav mt--30">
+                <ul class="mainmenu metismenu" id="mobile-menu-active">
+                    <li class="main-nav mega-menu project-a-after">
+                        <a class="main text-white" href="{{ route('/') }}">Home</a>
+                    </li>
+
+                    <li class="main-nav mega-menu">
+                        <a class="main text-white" href="{{ route('about') }}">About</a>
+                    </li>
+                    <li class="main-nav mega-menu">
+                        <a class="main text-white" href="{{ route('services') }}">Services</a>
+                    </li>
+                    <li class="main-nav mega-menu">
+                        <a class="main text-white" href="{{ route('team') }}">Our Team</a>
+                    </li>
+
+                    <li class="main-nav mega-menu">
+                        <a class="main text-white" href="{{ route('web.news') }}">News</a>
+                    </li>
+
+
+                    <li class="main-nav mega-menu">
+                        <a class="main text-white" href="{{ route('gallery') }}">Gallery</a>
+                    </li>
+
+                    <li class="main-nav mega-menu">
+                        <a class="main text-white" href="{{ route('web.publications') }}">Publications</a>
+                    </li>
+
+                    <li class="main-nav mega-menu">
+                        <a class="main text-white" href="{{ route('contact') }}">Contact</a>
+                    </li>
+                  
+                </ul>
+            </nav>
+
+
+
+
+
+
+
+
+
+
+
+            {{-- <div class="social-wrapper-one">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div> --}}
+        </div>
+        <!-- mobile menu area end -->
+    </div>
 @yield('content')
 
 
