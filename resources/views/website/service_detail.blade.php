@@ -7,10 +7,10 @@
 
     @switch($id)
         @case('Policy Advisory')
-        <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/20c.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
+        <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/p_.jpg') }}');background-position:bottom;background-size:cover; background-repeat:no repeat;">
             @break
         @case('Institutional Strategy')
-        <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/22_.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
+        <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/is_22.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
             @break
 
             @case('Digital Transformation in Education')
@@ -18,16 +18,16 @@
                 @break
 
                 @case('Teacher Training & Professional Development')
-                <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/24c.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
+                <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/tt_.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
                     @break
 
                     @case('International Education & Exchange Programs')
-                    <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/25_.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
+                    <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/ie_ie.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
                         @break
 
 
                         @case('Impact Assessments & Data Analytics')
-                        <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/26_.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
+                        <div class="rts-breadcrumb-area bg_primary"  style="background-image:url('{{ asset('website/assets/images/header/ia.jpg') }}');background-position:center;background-size:cover; background-repeat:no repeat;">
                             @break
 
                             @case('Development of School Infrastructure')
@@ -80,7 +80,7 @@
                             </section>
                         </div>
                         <div class="col-lg-6">
-                           <img src="{{ asset('website/assets/images/header/policy.jpg') }}" class="img-fluid rounded" alt="">
+                           <img src="{{ asset('website/assets/images/header/npol.jpg') }}" class="img-fluid rounded" alt="">
                             <div class="service-arrow-bottom-main">
                                 <img src="{{ asset('website/assets/images/banner/shape/08.png') }}" alt="service">
                             </div>
@@ -318,7 +318,7 @@
                                             </section>
                                         </div>
                                         <div class="col-lg-6">
-                                           <img src="{{ asset('website/assets/images/header/iaa.jpg') }}" class="img-fluid rounded" alt="">
+                                           <img src="{{ asset('website/assets/images/header/ia_.jpg') }}" class="img-fluid rounded" alt="">
                                             <div class="service-arrow-bottom-main">
                                                 <img src="{{ asset('website/assets/images/banner/shape/08.png') }}" alt="service">
                                             </div>
