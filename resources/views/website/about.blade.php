@@ -42,14 +42,14 @@
                         <div class="col-lg-6">
                             <div class="thumbnail-about-10-wrapper">
                                 <img src="{{ asset('website/assets/images/header/ic.jpg') }}" alt="abotu">
-                                <div class="top-counter-area">
+                                <div class="top-counter-area d-none d-lg-block">
                                     <div class="icon">
                                         <img src="website/assets/images/about/icons/08.svg" alt="about">
                                     </div>
                                    
                                     <p>Empowering Minds</p>
                                 </div>
-                                <div class="top-counter-area bottom">
+                                <div class="top-counter-area bottom d-none d-lg-block">
                                     <div class="icon">
                                         <img src="website/assets/images/about/icons/09.svg" alt="about">
                                     </div>
